@@ -90,11 +90,11 @@
     <!-- AboutUs -->
     <string name="about_us">关于我们</string>
     <string name="changelog">更新日志</string>
-    <string name="changelog_url">https://github.com/iceCola7/WanAndroid/releases</string>
+    <string name="changelog_url">https://github.com/leitana/LinWanAndroid</string>
     <string name="about_developers_label">主要开发者</string>
-    <string name="about_developers">https://github.com/iceCola7</string>
+    <string name="about_developers">https://github.com/leitana</string>
     <string name="source_code">源代码</string>
-    <string name="source_code_url">https://github.com/iceCola7/WanAndroid</string>
+    <string name="source_code_url">https://github.com/leitana/LinWanAndroid</string>
     <string name="about_libraries_label">开源许可</string>
     <string name="about_libraries_summary">查看开源许可信息</string>
     <string name="copyright">版权声明</string>
@@ -174,7 +174,6 @@
         <p>\t\t可以在 <a href="https://github.com/hongyangAndroid/wanandroid" target="_blank">https://github.com/hongyangAndroid/xueandroid</a> 项目中以issue的形式提出，我将及时跟进。</p>
         <p>\t\t如果您希望长期关注本站，可以加入我们的QQ群：<b>591683946</b></p>
         <h2>源码位置</h2>
-        <p>\t\t本软件开源，如果你发现任何错误，不要犹豫，马上点击<a href="https://github.com/iceCola7/WanAndroid" target="_blank">GitHub</a>，在上面发起<b>issue</b>或者提交<b>pull request</b>。</p>
     ]]></string>
 
 
