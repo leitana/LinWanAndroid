@@ -41,6 +41,12 @@
         <activity android:name=".ui.activity.CommonActivity"/>
         <activity android:name=".ui.activity.KnowledgeActivity"/>
         <activity android:name=".ui.activity.SearchActivity"/>
+
+        <provider
+            android:name=".app.ContextProvider"
+            android:authorities="${applicationId}.contextprovider"
+            android:exported="false" />
+
     </application>
 
 </manifest>

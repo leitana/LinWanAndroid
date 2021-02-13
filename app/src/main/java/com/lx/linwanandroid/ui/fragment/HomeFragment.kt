@@ -11,7 +11,6 @@ import cn.bingoogolapple.bgabanner.BGABanner
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.listener.OnItemClickListener
 import com.chad.library.adapter.base.listener.OnLoadMoreListener
-import com.lx.base.BaseMvpFragment
 import com.lx.linwanandroid.R
 import com.lx.linwanandroid.adapter.HomeAdapter
 import com.lx.linwanandroid.base.BaseMvpStatusViewActivity

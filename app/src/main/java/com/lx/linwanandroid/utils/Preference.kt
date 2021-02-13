@@ -3,6 +3,7 @@ package com.lx.linwanandroid.utils
 import android.content.Context
 import android.content.SharedPreferences
 import com.lx.linwanandroid.app.App
+import com.lx.linwanandroid.app.context
 import java.io.*
 import kotlin.reflect.KProperty
 
@@ -19,7 +20,8 @@ class Preference<T> (val name: String,private val default: T) {
         private val file_name = "lin_wanandroid_file"
 
         private val prefs: SharedPreferences by lazy {
-            App.context.getSharedPreferences(file_name, Context.MODE_PRIVATE)
+//            App.context.getSharedPreferences(file_name, Context.MODE_PRIVATE)
+            context().getSharedPreferences(file_name, Context.MODE_PRIVATE)
         }
 
         //清楚所有数据
