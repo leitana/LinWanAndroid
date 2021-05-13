@@ -114,4 +114,8 @@ dependencies {
     implementation 'q.rorbin:VerticalTabLayout:1.2.5'
 
     implementation 'com.hyman:flowlayout-lib:1.1.2'
+
+    //item侧滑SwipeMenuLayout
+    implementation 'com.github.anzaizai:EasySwipeMenuLayout:1.1.4'
+
 }

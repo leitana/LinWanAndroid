@@ -357,7 +357,7 @@ class MainActivity : BaseMvpStatusViewActivity<MainContract.View, MainContract.P
     /**
      * 生成ColorStateList
      */
-    fun createColorStateList(context: Context, color: Int): ColorStateList? {
+    private fun createColorStateList(context: Context, color: Int): ColorStateList? {
         val colors = intArrayOf(
 //            ContextCompat.getColor(context, color),
             color,

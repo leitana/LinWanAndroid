@@ -19,8 +19,13 @@ import com.lx.linwanandroid.utils.ImageLoader
  * @data Created in 2020/08/20
  */
 class CollectAdapter(datas: MutableList<CollectionArticle.DatasBean>)
-    :BaseQuickAdapter<CollectionArticle.DatasBean, BaseViewHolder>(R.layout.item_collect_list, datas)
+    :BaseQuickAdapter<CollectionArticle.DatasBean, BaseViewHolder>(R.layout.item_collect_swip_list, datas)
     , LoadMoreModule {
+
+    init {
+        addChildClickViewIds(R.id.tvDelete)
+    }
+
     override fun convert(holder: BaseViewHolder, item: CollectionArticle.DatasBean) {
         holder ?: return
         item ?: return

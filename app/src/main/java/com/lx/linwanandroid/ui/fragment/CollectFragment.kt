@@ -99,6 +99,10 @@ class CollectFragment: BaseMvpStatusViewFragment<CollectContract.View, CollectCo
                         collectAdapter.remove(position)
                         mPresenter?.removeCollect(data.id, data.originId)
                     }
+                    R.id.tvDelete -> {
+                        collectAdapter.remove(position)
+                        mPresenter?.removeCollect(data.id, data.originId)
+                    }
                 }
             }
         }
